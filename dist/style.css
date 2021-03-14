@@ -69,6 +69,77 @@ img {
   border-bottom: 2px solid #fff;
 }
 
+/*===========
+    SHOWCASE
+============== */
+.showcase {
+  height: 25rem;
+  background-color: #047aed;
+  color: #fff;
+  position: relative;
+}
+
+.showcase h1 {
+  font-size: 2.5rem;
+}
+
+.showcase p {
+  margin: 1.25rem 0;
+}
+
+.showcase .grid {
+  overflow: visible;
+  -ms-grid-columns: 55% 45%;
+      grid-template-columns: 55% 45%;
+  gap: 1.875rem;
+}
+
+.showcase-form {
+  position: relative;
+  top: 3.75rem;
+  height: 21.875rem;
+  width: 25rem;
+  padding: 2.5rem;
+  z-index: 100;
+  justify-self: flex-end;
+}
+
+.showcase-form .form-control {
+  margin: 1.875rem 0;
+}
+
+.showcase-form input[type="text"],
+.showcase-form input[type="email"] {
+  border: 0;
+  border-bottom: 1px solid #b4becb;
+  width: 100%;
+  padding: 3px;
+  font-size: 1rem;
+}
+
+.showcase-form input[type="text"]:focus,
+.showcase-form input[type="email"]:focus {
+  outline: none;
+}
+
+.showcase::before,
+.showcase::after {
+  content: "";
+  position: absolute;
+  height: 6.25rem;
+  bottom: -4.375rem;
+  right: 0;
+  left: 0;
+  background: #fff;
+  transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+}
+
+/*===========
+    UTILITEIES
+==============  */
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -76,10 +147,55 @@ img {
   padding: 0 2.5rem;
 }
 
+.btn {
+  display: inline-block;
+  padding: 0.625rem 1.875rem;
+  cursor: pointer;
+  background-color: #047aed;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px white solid;
+}
+
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 1.25rem;
+  margin: 0.625rem;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

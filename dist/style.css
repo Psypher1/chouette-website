@@ -340,4 +340,21 @@ img {
   font-size: 1.25rem;
   font-weight: bold;
 }
+
+/* ===========
+    CLI
+  ============  */
+.cli .grid {
+  -ms-grid-columns: reapeat(3, 1fr);
+      grid-template-columns: reapeat(3, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+}
+
+.cli .grid > *:first-child {
+  grid-column: 1 / span2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / span 2;
+}
 /*# sourceMappingURL=style.css.map */

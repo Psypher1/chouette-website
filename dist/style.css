@@ -417,4 +417,31 @@ img {
   -ms-grid-columns: 4fr 3fr;
       grid-template-columns: 4fr 3fr;
 }
+
+/* ===========
+    LANGUAGES
+  ============  */
+.languages .flex {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.languages .card {
+  text-align: center;
+  margin: 1.125rem 0.625rem 2.5rem;
+  -webkit-transition: -webkit-transform 0.25s ease-in;
+  transition: -webkit-transform 0.25s ease-in;
+  transition: transform 0.25s ease-in;
+  transition: transform 0.25s ease-in, -webkit-transform 0.25s ease-in;
+}
+
+.languages .card:hover {
+  -webkit-transform: translateY(-0.9375rem);
+          transform: translateY(-0.9375rem);
+}
+
+.languages .card h4 {
+  font: size 1.25rem;
+  margin-bottom: 0.625rem;
+}
 /*# sourceMappingURL=style.css.map */

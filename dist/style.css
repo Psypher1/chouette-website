@@ -529,8 +529,8 @@ pre {
   ============  */
 .stats {
   padding-top: 6.25rem;
-  -webkit-animation: slideInFromBottom 1s ease-in;
-          animation: slideInFromBottom 1s ease-in;
+  -webkit-animation: slideInFromBottom 1.5s ease-in;
+          animation: slideInFromBottom 1.5s ease-in;
 }
 
 .stats-heading {

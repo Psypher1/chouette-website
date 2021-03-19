@@ -418,6 +418,12 @@ pre {
   padding: 0.625rem;
 }
 
+/* Netlify  */
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
 /* ===========
     NAVBAR
    ===========  */

@@ -1,0 +1,81 @@
+$mainTextColor: #333;
+$primaryColor: #0368ce;
+$secondaryColor: #1c3fa8;
+
+$darkColor: #002240;
+$lightColor: #f4f4f4;
+
+$borderColor: #b4becb;
+$borderColor2: #ccc;
+
+$successColor: #5cb85c;
+$errorColor: #d9534f;
+
+//Backgrounds and Colored Buttons
+.bg-primary,
+.btn-primary {
+  background-color: $primaryColor;
+  color: #fff;
+}
+.bg-secondary,
+.btn-secondary {
+  background-color: $secondaryColor;
+  color: #fff;
+}
+.bg-light,
+.btn-light {
+  background-color: $lightColor;
+  color: $mainTextColor;
+}
+.bg-dark,
+.btn-dark {
+  background-color: $darkColor;
+  color: #fff;
+}
+
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: #fff;
+}
+
+/* Text Colors */
+.text-primary {
+  color: $primaryColor;
+}
+.text-secondary {
+  color: $secondaryColor;
+}
+.text-light {
+  color: $lightColor;
+}
+.text-dark {
+  color: $darkColor;
+}
+
+/* Alert */
+.alert {
+  background: $lightColor;
+  // 10 20
+  padding: 0.625rem 1.25rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  // 15
+  margin: 0.9375rem 0;
+
+  i {
+    margin-right: 0.625rem;
+  }
+
+  &-success {
+    background-color: $successColor;
+    color: #fff;
+  }
+  &-error {
+    background-color: $errorColor;
+    color: #fff;
+  }
+}

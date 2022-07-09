@@ -10,3 +10,6 @@ I did the styling in scss - I ignored those files when I pushed.
 
 
 Maybe I should push it also
+
+
+I still haven't decided whether to push the files or not

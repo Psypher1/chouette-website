@@ -13,3 +13,8 @@ Maybe I should push it also
 
 
 I still haven't decided whether to push the files or not
+
+
+
+## Thoughts
+- Rebuild with OpenProps 

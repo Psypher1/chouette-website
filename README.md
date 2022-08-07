@@ -1,4 +1,4 @@
-# chouette-website
+Hi# chouette-website
 Cloud hosting website in French
 
 This is the front face for a cloud hosting site called Chouette 
@@ -17,4 +17,4 @@ I still haven't decided whether to push the files or not
 
 
 ## Thoughts
-- Rebuild with OpenProps 
+- Rebuild with OpenProps? 

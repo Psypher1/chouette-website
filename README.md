@@ -1,4 +1,4 @@
-Hi# chouette-website
+# chouette-website
 Cloud hosting website in French
 
 This is the front face for a cloud hosting site called Chouette 

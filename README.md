@@ -8,10 +8,6 @@ For something different I made the display text French
 I did the styling in scss - I ignored those files when I pushed.
 
 
-
-And .....
-
-
 Maybe I should push it also
 
 
